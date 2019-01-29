@@ -20,4 +20,8 @@ service2:
   time-limiter:
     timeout: 9
 
+logging:
+  level:
+    root: TRACE
+
 test: BBBBBBBBBBBB
