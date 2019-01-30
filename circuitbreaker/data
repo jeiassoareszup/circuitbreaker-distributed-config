@@ -24,5 +24,4 @@ logging:
   level:
     root: TRACE
 
-config:
-  test: fffff
+test: fffff
