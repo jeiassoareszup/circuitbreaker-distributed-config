@@ -19,3 +19,6 @@ service2:
         buffer: 4
   time-limiter:
     timeout: 9
+
+endpoints:
+   enabled: true
