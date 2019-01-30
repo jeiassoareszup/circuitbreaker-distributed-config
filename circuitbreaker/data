@@ -1,4 +1,4 @@
-inservice1:
+service1:
   circuit-breaker:
     threshold: 50
     wait:
