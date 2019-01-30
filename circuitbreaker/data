@@ -1,4 +1,4 @@
-service1:
+inservice1:
   circuit-breaker:
     threshold: 50
     wait:
@@ -22,6 +22,6 @@ service2:
 
 logging:
   level:
-    root: TRACE
+    root: INFO
 
 test: didididi
