@@ -18,7 +18,7 @@ service2:
       state:
         buffer: 4
   time-limiter:
-    timeout: 8
+    timeout: 3
 
 endpoints:
    enabled: true
