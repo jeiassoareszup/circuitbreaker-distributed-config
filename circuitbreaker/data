@@ -20,5 +20,19 @@ service2:
   time-limiter:
     timeout: 3
 
-endpoints:
-   enabled: true
+management:
+  metrics:
+    tags:
+      application: ${spring.application.name}
+      eport:
+        prometheus:
+          enable: true
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
